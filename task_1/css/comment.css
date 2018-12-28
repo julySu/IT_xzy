@@ -12,7 +12,7 @@ html, body{
 	padding: 20px;
 }
 .grid-9 > div{
-	width: calc(94% / 3);
+	width: calc(100% / 3 - 2%);
 	float: left;
 	border-radius: 5%;
 	margin: 1%;
