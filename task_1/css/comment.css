@@ -13,9 +13,14 @@ html, body{
 }
 .grid-9 > div{
 	width: calc(94% / 3);
-	height: calc(94vw / 3);
-	background-color: #FFA600;
 	float: left;
+	border-radius: 5%;
 	margin: 1%;
+}
+.grid-9 > div > div{
+	padding-top: 100%;
+	width: 100%;
+	background-color: #FFA600;
 	border-radius: 5%;
 }
+
