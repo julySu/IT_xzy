@@ -1,84 +1,30 @@
-html{
-	font-size: 625%;
-}
-@media only screen and (min-width: 426px) and (max-width: 768px) {
-	html{
-		font-size: 830%;
-	}
-}
-@media only screen and (min-width: 769px) {
-	html{
-		font-size: 1500%;
-	}
-}
 html, body{
+	height: 100%;
+	width: 100%;
 	padding: 0;
 	margin: 0;
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
-}
-*{
+	overflow: auto;
 	display: block;
 }
-p{
-	font-size: 0.16rem;
-	color: #fff;
-}
-img{
-	height: 100%;
-}
 .container{
-	background: #68cdd5;
+	width: 50%;
+	background-color: #ef9683;
+	height: 50vw;
+}
+.container1{
 	width: 100%;
-	height: 100%;
+	padding-bottom: 100%;
+	background-color: darkcyan;
+	height: 0;
 }
-.container .go-back{
-	padding: 0.1rem;
-	height: 0.3rem;
-}
-.container .go-back > img{
-	height: 100%;	
-}
-.container .logo{
+.container2{
 	width: 100%;
-	height: 0.36rem;
-	margin-top: 0.2rem;
+	overflow: hidden;
+	background-color: #FFA600;
+	max-height: 100px;
 }
-.container .logo > img{
-	height: 100%;
-	margin: 0 auto;
-}
-.container .abstract{
-	margin-top: 0.5rem;
-}
-.container .abstract > p{
-	color: #fff;
-	text-align: justify;
-	font-size: 0.15rem;
-	line-height: 2;
-	padding: 0 0.45rem;
-}
-.bottom-functional-device{
-	margin-top: 0.8rem;
-	padding: 0 0.45rem;
-	display: inline-block;
-	width: calc(100% - 0.9rem);
-}
-.bottom-functional-device > div{
-	width: 1rem;
-	text-align: center;
-}
-
-.bottom-functional-device > div > div{
-	height: 0.42rem;
-	width: 0.42rem;
-	border-radius: 50%;
-	margin: 0 auto;
-}
-.bottom-functional-device > div.left{
-	float: left;
-}
-.bottom-functional-device > div.right{
-	float: right;
+.container2:after{
+	content: '';
+	display: block;
+	margin-top: 100%;/* margin 百分比相对父元素宽度计算 */
 }
