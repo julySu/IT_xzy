@@ -1,39 +1,14 @@
 html{
 	font-size: 625%;
 }
-@media only screen and (min-width: 360px) and (max-width: 374px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
 	html{
-		font-size: 703%;
+		font-size: 830%;
 	}
 }
-@media only screen and (min-width: 375px) and (max-width: 383px) {
+@media only screen and (min-width: 769px) {
 	html{
-		font-size: 732.4%;
-	}
-}
-@media only screen and (min-width: 384px) and (max-width: 399px) {
-	html{
-		font-size: 750%;
-	}
-}
-@media only screen and (min-width: 400px) and (max-width: 413px) {
-	html{
-		font-size: 785.25%;
-	}
-}
-@media only screen and (min-width: 414px) and (max-width: 431px) {
-	html{
-		font-size: 808.6%;
-	}
-}
-@media only screen and (min-width: 432px) and (max-width: 479px) {
-	html{
-		font-size: 843.75%;
-	}
-}
-@media only screen and (min-width: 480px) {
-	html{
-		font-size: 937.5%;
+		font-size: 1500%;
 	}
 }
 html, body{
