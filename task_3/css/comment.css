@@ -1,0 +1,108 @@
+html{
+	font-size: 625%;
+}
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+	html{
+		font-size: 703%;
+	}
+}
+@media only screen and (min-width: 375px) and (max-width: 383px) {
+	html{
+		font-size: 732.4%;
+	}
+}
+@media only screen and (min-width: 384px) and (max-width: 399px) {
+	html{
+		font-size: 750%;
+	}
+}
+@media only screen and (min-width: 400px) and (max-width: 413px) {
+	html{
+		font-size: 785.25%;
+	}
+}
+@media only screen and (min-width: 414px) and (max-width: 431px) {
+	html{
+		font-size: 808.6%;
+	}
+}
+@media only screen and (min-width: 432px) and (max-width: 479px) {
+	html{
+		font-size: 843.75%;
+	}
+}
+html, body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	/*max-width: 640px;*/
+	width: 100%;
+	overflow: hidden;
+}
+*{
+	display: block;
+}
+p{
+	font-size: 0.16rem;
+	color: #fff;
+}
+img{
+	height: 100%;
+}
+.container{
+	background: #68cdd5;
+	width: 100%;
+	height: 100%;
+}
+.container .go-back{
+	padding: 0.1rem;
+	height: 0.3rem;
+}
+.container .go-back > img{
+	height: 100%;	
+}
+.container .logo{
+	width: 100%;
+	height: 0.36rem;
+	margin-top: 0.2rem;
+}
+.container .logo > img{
+	height: 100%;
+	margin: 0 auto;
+}
+.container .abstract{
+	margin-top: 0.5rem;
+}
+.container .abstract > p{
+	color: #fff;
+	text-align: justify;
+	font-size: 0.15rem;
+	line-height: 2;
+	padding: 0 0.45rem;
+}
+.bottom-functional-device{
+	margin-top: 0.8rem;
+	padding: 0 0.45rem;
+	display: inline-block;
+	width: calc(100% - 0.9rem);
+}
+.bottom-functional-device > div{
+	width: 1rem;
+	text-align: center;
+}
+.bottom-functional-device > div > p{
+	
+}
+.bottom-functional-device > div > div{
+	height: 0.42rem;
+	width: 0.42rem;
+	border-radius: 50%;
+	/*background-color: #009e96;*/
+	margin: 0 auto;
+}
+.bottom-functional-device > div.left{
+	float: left;
+}
+.bottom-functional-device > div.right{
+	float: right;
+}
