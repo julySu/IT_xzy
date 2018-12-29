@@ -17,16 +17,16 @@ html, body{
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
+	position: relative;
 }
-*{
-	display: block;
-}
+
 p{
 	font-size: 0.16rem;
 	color: #fff;
 }
 img{
 	height: 100%;
+	display: block;
 }
 .container{
 	background: #68cdd5;
