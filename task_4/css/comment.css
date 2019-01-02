@@ -20,10 +20,7 @@ html, body{
 	position: relative;
 	background-color: #eff0f4;
 }
-*{
-	padding: 0;
-	margin: 0;
-}
+
 .header{
 	height: 0.45rem;
 	width: calc(100% - 0.3rem);
@@ -102,10 +99,11 @@ input::-ms-input-placeholder{
 	margin-top: 0.1rem;
 }
 .forget-pwd{
+	display: block;
 	width: calc(100% - 0.3rem);
 	color: #5fc0cd;
-	font-size: 0.16rem;
+	font-size: 0.14rem;
 	text-align: right;
 	padding: 0.05rem 0.15rem;
-	
+	text-decoration: underline;
 }
