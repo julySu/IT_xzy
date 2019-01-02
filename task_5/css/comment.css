@@ -1,0 +1,22 @@
+html{
+	font-size: 625%;
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+	html{
+		font-size: 830%;
+	}
+}
+@media only screen and (min-width: 769px) {
+	html{
+		font-size: 1500%;
+	}
+}
+body{
+	font: normal 100% arial, sans-serif;
+	font-size: 14px;
+	font-size: 0.14rem;
+}
+img{
+	width: 100%;
+	-ms-interpolation-mode: bicubic;
+}
