@@ -8,14 +8,15 @@
 	</head>
 	<body>
 		<div class="header">
-			<div class="left-text">关闭</div>
+			<div class="left-text"><a href="#">关闭</a></div>
 			<div class="title">登录</div>
-			<div class="right-text">注册</div>
+			<div class="right-text"><a href="#">注册</a></div>
 		</div>
 		<div class="container">
 			<div class="form-input">
 				<img src="images/task4_03.png"/>
-				<input type="text" name="tel" value="" placeholder="请输入手机号"/>
+				<input type="tel" name="tel" value="" placeholder="请输入手机号" maxlength="11" oninput="value=value.replace(/[^\d]/g,'')"/>
+				<!--<input type="number" name="" id="" value="" />-->
 			</div>
 			<div class="form-input">
 				<img src="images/task4_06.png"/>

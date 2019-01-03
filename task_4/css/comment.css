@@ -20,7 +20,9 @@ html, body{
 	position: relative;
 	background-color: #eff0f4;
 }
-
+a{
+	text-decoration: none;
+}
 .header{
 	height: 0.45rem;
 	width: calc(100% - 0.3rem);
@@ -36,6 +38,9 @@ html, body{
 	position: absolute;
 	height: 0.45rem;
 	line-height: 0.45rem;
+}
+.header > div > a{
+	color: #fff;
 }
 .header > div.left-text{
 	width: 0.5rem;
