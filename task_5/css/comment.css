@@ -12,11 +12,55 @@ html{
 	}
 }
 body{
-	font: normal 100% arial, sans-serif;
+	font-family: arial, sans-serif;
 	font-size: 14px;
 	font-size: 0.14rem;
 }
+/*
+body{
+	font: normal 100% arial, sans-serif;
+	font-size: 14px;
+	font-size: 0.14rem;
+}*/
 img{
 	width: 100%;
-	-ms-interpolation-mode: bicubic;
 }
+a{
+	text-decoration: none;
+}
+
+/*header start*/
+.header{
+	height: 0.45rem;
+	width: calc(100% - 0.3rem);
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #5fc0cd;
+	font-size: 0.16rem;
+	color: #fff;
+	padding: 0 0.15rem;
+}
+.header > div{
+	position: absolute;
+	height: 0.45rem;
+	line-height: 0.45rem;
+}
+.header > div > a{
+	color: #fff;
+}
+.header > div.left-text{
+	width: 0.5rem;
+	left: 0.15rem;
+}
+.header > div.right-text{
+	width: 0.5rem;
+	right: 0.15rem;
+	text-align: right;
+}
+.header > div.title{
+	width: calc(100% - 1.3rem);
+	left: 0.65rem;
+	text-align: center;
+}
+/*header end*/

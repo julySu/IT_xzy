@@ -23,6 +23,7 @@ html, body{
 a{
 	text-decoration: none;
 }
+/*header start*/
 .header{
 	height: 0.45rem;
 	width: calc(100% - 0.3rem);
@@ -56,9 +57,11 @@ a{
 	left: 0.65rem;
 	text-align: center;
 }
+/*header end*/
 .container{
+	height: 100%;
 	padding-top: 0.45rem;
-	overflow: auto;
+	overflow: hidden;
 }
 .form-input{
 	background-color: #fff;
